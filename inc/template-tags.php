@@ -47,13 +47,13 @@ function anatta_entry_footer() {
 		/* translators: used between list items, there is a space after the comma */
 		$categories_list = get_the_category_list( esc_html__( ', ', 'anatta' ) );
 		if ( $categories_list && anatta_categorized_blog() ) {
-			printf( '<span class="cat-links">' . esc_html__( 'Posted in %1$s', 'anatta' ) . '</span>', $categories_list ); // WPCS: XSS OK.
+			printf( '<p class="cat-links">' . esc_html__( 'Posted in %1$s', 'anatta' ) . '</p>', $categories_list ); // WPCS: XSS OK.
 		}
 
 		/* translators: used between list items, there is a space after the comma */
 		$tags_list = get_the_tag_list( '', esc_html__( ', ', 'anatta' ) );
 		if ( $tags_list ) {
-			printf( '<span class="tags-links">' . esc_html__( 'Tagged %1$s', 'anatta' ) . '</span>', $tags_list ); // WPCS: XSS OK.
+			printf( '<p class="tags-links">' . esc_html__( 'Tagged %1$s', 'anatta' ) . '</p>', $tags_list ); // WPCS: XSS OK.
 		}
 	}
 
