@@ -84,30 +84,12 @@ function anatta_content_width() {
 add_action( 'after_setup_theme', 'anatta_content_width', 0 );
 
 /**
- * Register widget area.
- *
- * @link https://developer.wordpress.org/themes/functionality/sidebars/#registering-a-sidebar
- */
-function anatta_widgets_init() {
-	register_sidebar( array(
-		'name'          => esc_html__( 'Sidebar', 'anatta' ),
-		'id'            => 'sidebar-1',
-		'description'   => esc_html__( 'Add widgets here.', 'anatta' ),
-		'before_widget' => '<section id="%1$s" class="widget %2$s">',
-		'after_widget'  => '</section>',
-		'before_title'  => '<h2 class="widget-title">',
-		'after_title'   => '</h2>',
-	) );
-}
-add_action( 'widgets_init', 'anatta_widgets_init' );
-
-/**
  * Enqueue scripts and styles.
  */
 function anatta_scripts() {
 	wp_enqueue_style( 'anatta-style', get_stylesheet_uri() );
 
-	wp_enqueue_style( 'awsm.css', get_template_directory_uri() . '/css/awsm.css', array(), '2.1.0' );
+	wp_enqueue_style( 'awsm.css', get_template_directory_uri() . '/css/awsm.min.css', array(), '2.1.0' );
 
 	wp_enqueue_style( 'pt-serif-pt-sans-google-fonts', 'https://fonts.googleapis.com/css?family=PT+Sans|PT+Serif:400,400i,700,700i&subset=cyrillic', false );
 
