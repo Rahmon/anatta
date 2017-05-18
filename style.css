@@ -24,6 +24,8 @@ Nicolas Gallagher and Jonathan Neal http://necolas.github.io/normalize.css/
 >>> TABLE OF CONTENTS:
 ----------------------------------------------------------------
 # Elements
+# Navigation
+	## Menus
 # Content
 	## Posts and pages
 --------------------------------------------------------------*/
@@ -34,6 +36,25 @@ Nicolas Gallagher and Jonathan Neal http://necolas.github.io/normalize.css/
 figure {
 	height: auto;
 	max-width: 100%;
+}
+
+/*--------------------------------------------------------------
+# Navigation
+--------------------------------------------------------------*/
+/*--------------------------------------------------------------
+## Menus
+--------------------------------------------------------------*/
+nav .current-menu-item a {
+	color: #000;
+	background: transparent;
+}
+
+.posts-navigation .nav-previous {
+	float: left;
+}
+
+.posts-navigation .nav-next  {
+	float: right;
 }
 /*--------------------------------------------------------------
 # Content

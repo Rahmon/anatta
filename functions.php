@@ -87,9 +87,9 @@ add_action( 'after_setup_theme', 'anatta_content_width', 0 );
  * Enqueue scripts and styles.
  */
 function anatta_scripts() {
-	wp_enqueue_style( 'anatta-style', get_stylesheet_uri() );
-
 	wp_enqueue_style( 'awsm.css', get_template_directory_uri() . '/css/awsm.min.css', array(), '2.1.0' );
+
+    wp_enqueue_style( 'anatta-style', get_stylesheet_uri() );
 
 	wp_enqueue_style( 'pt-serif-pt-sans-google-fonts', 'https://fonts.googleapis.com/css?family=PT+Sans|PT+Serif:400,400i,700,700i&subset=cyrillic', false );
 
