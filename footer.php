@@ -15,9 +15,7 @@
 
 	<footer id="colophon" class="site-footer" role="contentinfo">
 		<div class="site-info">
-			<a href="<?php echo esc_url( __( 'https://wordpress.org/', 'anatta' ) ); ?>"><?php printf( esc_html__( 'Proudly powered by %s', 'anatta' ), 'WordPress' ); ?></a>
-			<span class="sep"> | </span>
-			<?php printf( esc_html__( 'Theme: %1$s by %2$s.', 'anatta' ), 'anatta', '<a href="https://automattic.com/" rel="designer">Underscores.me</a>' ); ?>
+			<p><?php bloginfo( 'name' ); ?></p>
 		</div><!-- .site-info -->
 	</footer><!-- #colophon -->
 
