@@ -28,6 +28,7 @@ Nicolas Gallagher and Jonathan Neal http://necolas.github.io/normalize.css/
 	## Menus
 # Content
 	## Posts and pages
+	## Comments
 --------------------------------------------------------------*/
 
 /*--------------------------------------------------------------
@@ -64,4 +65,52 @@ nav .current-menu-item a {
 --------------------------------------------------------------*/
 .entry-content {
 	margin-top: 1em;
+}
+
+/*--------------------------------------------------------------
+## Comments
+--------------------------------------------------------------*/
+.comment-metadata > a {
+	font-size: .82353em;
+}
+
+.comment-metadata .edit-link {
+	margin-left: 10px;
+}
+
+.reply {
+	margin-top: 10px;
+}
+
+ol.children li {
+	list-style-type: none;
+}
+
+.comment-form-comment {
+	margin-bottom: 0;
+}
+
+.comment-form-comment > label,
+.comment-form-author > label,
+.comment-form-email > label,
+.comment-form-url > label {
+	display: block;
+}
+
+.comment-form-comment > #comment {
+	width: 100%;
+}
+
+.form-submit {
+	margin-top: 0;
+}
+
+.form-submit > #submit {
+	height: 30px;
+}
+
+.comment-form-author > #author,
+.comment-form-email > #email,
+.comment-form-url > #url {
+	height: 25px;
 }
