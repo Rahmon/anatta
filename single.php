@@ -24,7 +24,7 @@ get_header(); ?>
 						<?php previous_post_link( '<span class="meta-nav">←</span> %link' ); ?>
 					</div>
 					<div class="nav-next">
-						<?php next_post_link( '%link <span class="meta-nav">→</span>' ); ?>
+						<?php next_post_link( '<span class="meta-nav">→</span> %link' ); ?>
 					</div>
 				</div>
 			</nav>
