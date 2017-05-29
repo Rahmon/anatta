@@ -40,7 +40,10 @@ get_header(); ?>
 
 			endwhile;
 
-			the_posts_navigation();
+			the_posts_navigation( array(
+				'prev_text' => '<span class="meta-nav">←</span> ' . __( 'Older posts', 'anatta' ),
+				'next_text' => __( 'Newer posts', 'anatta' ) . ' <span class="meta-nav">→</span>',
+			) );
 
 		else :
 
