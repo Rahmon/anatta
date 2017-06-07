@@ -123,8 +123,16 @@ nav .current-menu-item a {
 /*--------------------------------------------------------------
 ## Posts and pages
 --------------------------------------------------------------*/
+.page-header {
+	margin-bottom: 1em;
+}
+
 .sticky {
 	display: block;
+}
+
+.entry-title {
+	word-wrap: break-word;
 }
 
 .entry-content {
