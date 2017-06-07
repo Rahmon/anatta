@@ -139,6 +139,11 @@ nav .current-menu-item a {
 	margin-top: 1em;
 }
 
+.nav-links .dashicons {
+	font-size: 14px;
+	vertical-align: initial;
+}
+
 /*--------------------------------------------------------------
 ## Comments
 --------------------------------------------------------------*/

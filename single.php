@@ -21,10 +21,10 @@ get_header(); ?>
 				<h2 class="screen-reader-text"><?php esc_html_e( 'Post navigation', 'anatta' ); ?></h2>
 				<div class="nav-links">
 					<div class="nav-previous">
-						<?php previous_post_link( '<span class="meta-nav">←</span> %link' ); ?>
+						<?php previous_post_link( '<span class="meta-nav dashicons dashicons-arrow-left-alt"></span> %link' ); ?>
 					</div>
 					<div class="nav-next">
-						<?php next_post_link( '<span class="meta-nav">→</span> %link' ); ?>
+						<?php next_post_link( '<span class="meta-nav dashicons dashicons-arrow-right-alt"></span> %link' ); ?>
 					</div>
 				</div>
 			</nav>
