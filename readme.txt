@@ -1,6 +1,6 @@
 === anatta ===
 
-Contributors: automattic
+Contributors: rahmohn
 Tags: one-column, blog, translation-ready, post-formats, threaded-comments
 
 Requires at least: 4.0
