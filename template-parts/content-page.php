@@ -34,8 +34,8 @@
 						esc_html__( 'Edit %s', 'anatta' ),
 						the_title( '<span class="screen-reader-text">"', '"</span>', false )
 					),
-					'<span class="edit-link">',
-					'</span>'
+					'<p class="edit-link">',
+					'</p>'
 				);
 			?>
 		</footer><!-- .entry-footer -->
