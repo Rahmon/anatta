@@ -228,6 +228,14 @@ ol.children li {
 /*--------------------------------------------------------------
 ## Galleries
 --------------------------------------------------------------*/
+.gallery .gallery-item {
+		display: inline-block;
+		margin-right: .7em;
+		margin-left: .7em;
+		vertical-align: top;
+		float: none;
+}
+
 .gallery-caption {
 	display: block;
 }
