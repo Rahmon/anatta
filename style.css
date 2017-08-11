@@ -234,6 +234,7 @@ ol.children li {
 		margin-left: .7em;
 		vertical-align: top;
 		float: none;
+		max-width: 150px;
 }
 
 .gallery-caption {
