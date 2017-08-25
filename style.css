@@ -24,6 +24,7 @@ Nicolas Gallagher and Jonathan Neal http://necolas.github.io/normalize.css/
 >>> TABLE OF CONTENTS:
 ----------------------------------------------------------------
 # Elements
+# Forms
 # Navigation
 	## Menus
 # Accessibility
@@ -43,6 +44,14 @@ figure {
 	height: auto;
 	max-width: 100%;
 }
+
+/*--------------------------------------------------------------
+# Forms
+--------------------------------------------------------------*/
+#site-search span.dashicons {
+	vertical-align: bottom;
+}
+
 
 /*--------------------------------------------------------------
 # Navigation
