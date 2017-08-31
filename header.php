@@ -29,9 +29,7 @@
 		<?php
 		endif; ?>
 
-		<div id="site-search" role="search">
-			<span class="dashicons dashicons-search"></span>
-		</div>
+		<?php get_search_form() ?>
 
 		<nav id="site-navigation" class="main-navigation" role="navigation">
 			<?php
