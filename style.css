@@ -40,6 +40,10 @@ Nicolas Gallagher and Jonathan Neal http://necolas.github.io/normalize.css/
 /*--------------------------------------------------------------
 # Elements
 --------------------------------------------------------------*/
+img.aligncenter {
+	float: initial;
+}
+
 figure {
 	height: auto;
 	max-width: 100%;
