@@ -2,7 +2,6 @@
 
 Contributors: rahmohn
 Tags: one-column, blog, translation-ready, post-formats, threaded-comments
-
 Requires at least: 4.0
 Tested up to: 4.8
 Stable tag: 1.0.0
