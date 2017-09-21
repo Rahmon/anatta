@@ -12,10 +12,10 @@
 <article id="post-<?php the_ID(); ?>" <?php post_class(); ?>>
 	<header class="entry-header">
 		<?php
-			if ( 'post' === get_post_type() ) : ?>
-					<?php anatta_posted_on(); ?>
-			<?php
-			endif; 
+			if ( 'post' === get_post_type() ) :
+				anatta_posted_on();
+			endif;
+			 
 			the_title( '<h1 class="entry-title"><a href="' . esc_url( get_permalink() ) . '" rel="bookmark">', '</a></h1>' );
 		?>
 	</header><!-- .entry-header -->
