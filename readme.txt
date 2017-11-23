@@ -4,7 +4,7 @@ Contributors: rahmohn
 Tags: one-column, blog, translation-ready, post-formats, threaded-comments
 Requires at least: 4.0
 Tested up to: 4.9
-Stable tag: 1.0.2
+Stable tag: 1.0.3
 License: GNU General Public License v2 or later
 License URI: LICENSE
 
