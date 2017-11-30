@@ -1,7 +1,7 @@
 === anatta ===
 
 Contributors: rahmohn
-Tags: one-column, blog, translation-ready, post-formats, threaded-comments
+Tags: one-column, blog, translation-ready, threaded-comments, custom-background, custom-menu
 Requires at least: 4.0
 Tested up to: 4.9
 Stable tag: 1.0.3
