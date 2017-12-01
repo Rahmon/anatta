@@ -44,8 +44,14 @@ https://github.com/igoradamenko/awsm.css
 /*--------------------------------------------------------------
 # Elements
 --------------------------------------------------------------*/
+img.alignnone,
 img.aligncenter {
 	float: initial;
+}
+
+img.alignnone {
+	margin-bottom: 0;
+	margin-left: 0;
 }
 
 figure {
@@ -147,6 +153,11 @@ nav .current-menu-item a {
 .entry-content,
 .entry-summary {
 	margin-top: 1em;
+}
+
+.entry-content {
+	clear: both;
+	overflow: auto;
 }
 
 .nav-links .dashicons {
