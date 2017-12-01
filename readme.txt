@@ -3,8 +3,8 @@
 Contributors: rahmohn
 Tags: one-column, blog, translation-ready, threaded-comments, custom-background, custom-menu
 Requires at least: 4.0
-Tested up to: 4.9
-Stable tag: 1.0.3
+Tested up to: 4.9.1
+Stable tag: 1.0.4
 License: GNU General Public License v2 or later
 License URI: LICENSE
 
@@ -47,6 +47,10 @@ Anatta is a clean and minimal theme based on underscores (starter theme) and aws
 3. Click Activate to use your new theme right away.
 
 == Changelog ==
+
+= 1.0.4 - Dez 1 2017 =
+* Fix image align issue when set to none
+* Remove tags
 
 = 1.0.1 - Set 21 2017 =
 * Initial release
